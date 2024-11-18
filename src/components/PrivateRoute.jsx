@@ -7,7 +7,7 @@ const PrivateRoute = ({ children }) => {
   const [user, loading] = useAuthState(auth);
 
   if (loading) {
-    // Show a loading spinner or message while Firebase checks the user's auth state
+
     return (
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
         <h2>Loading...</h2>

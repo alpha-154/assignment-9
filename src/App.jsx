@@ -12,7 +12,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import UpdateProfile from "./pages/UpdateProfile";
 import Error from "./pages/Error";
 import ResetPassword from "./pages/ResetPassword";
-// Add the AOS CSS import here
+
 import 'aos/dist/aos.css'
 
 function App() {
